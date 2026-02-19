@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakshitha | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 80px 0;
+    }
+    .hero {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+    footer {
+      background: #111;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Rakshitha</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="container text-center">
+    <h1 class="display-5">Hi, I'm Rakshitha 👋</h1>
+    <p class="lead">
+      BCA Student | Frontend Web Developer  
+      <br>Passionate about building responsive websites
+    </p>
+    <a href="#projects" class="btn btn-light mt-3">View Projects</a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <h2 class="text-center mb-5">Technical Skills</h2>
+    <div class="row text-center">
+      <div class="col-md-3 col-6 mb-3"><div class="card p-3">HTML5</div></div>
+      <div class="col-md-3 col-6 mb-3"><div class="card p-3">CSS3</div></div>
+      <div class="col-md-3 col-6 mb-3"><div class="card p-3">JavaScript (Basics)</div></div>
+      <div class="col-md-3 col-6 mb-3"><div class="card p-3">Bootstrap</div></div>
+      <div class="col-md-3 col-6 mb-3"><div class="card p-3">Responsive Design</div></div>
+      <div class="col-md-3 col-6 mb-3"><div class="card p-3">Git & GitHub</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <div class="card p-3 h-100">
+          <h5>Responsive Portfolio Website</h5>
+          <p>
+            Personal portfolio website built using HTML, CSS, and Bootstrap. 
+            Fully responsive and hosted on GitHub Pages.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card p-3 h-100">
+          <h5>To-Do List Web App</h5>
+          <p>
+            A simple task management app using JavaScript.
+            Users can add, delete, and manage daily tasks.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card p-3 h-100">
+          <h5>Weather Information App</h5>
+          <p>
+            Displays real-time weather data using a public API.
+            Built with JavaScript and responsive UI.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <input type="text" class="form-control mb-3" placeholder="Your Name">
+          <input type="email" class="form-control mb-3" placeholder="Your Email">
+          <textarea class="form-control mb-3" placeholder="Your Message"></textarea>
+          <button class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Rakshitha | Web Developer
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
